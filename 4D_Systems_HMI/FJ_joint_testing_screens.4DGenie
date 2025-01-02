@@ -1,0 +1,2195 @@
+﻿Version     0.0
+Platform    Gen4-uLCD-70DCT-CLB-L
+PlatRes     480x800
+Depends
+end
+Options
+    Genie
+    Speed                        115200
+    Checksum                     No
+    ResponseSize                 2
+    Multidrop                    No
+    Destination                  1
+    DestBank                     0
+    MainForm                     1
+    SndBuf                       0
+    ButtonDisable                No
+    SignedDigits                 No
+    MaxString                    75
+    ComPort                      0
+    ComTX1pinIdx                 0
+    ComRX1pinIdx                 0
+    FileSystem                   FATfs
+    FlashEraseOption             Optimal
+    SPIenable                    0
+    SPIsdo                       3
+    SPIsdi                       2
+    SPIsck                       1
+    ForceProgramFlash            No
+    PixxiuSDSpeed                0
+    FlashForceLT16MB             No
+end
+Form
+    Name                         Form0
+    Alias                        Form0
+    Bgtype                       Color
+    Color                        0x2C2C2C
+    Image                        (None)
+    Source.Height                0
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 0
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Keyboard
+    Name                         Keyboard0
+    Alias                        Keyboard0
+    AutoCapsDisplay              Yes
+    Fill                         (Default)
+    Font.Color                   BLACK
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    12
+    Font.Style                   []
+    Height                       230
+    HighlightCaps                BLACK
+    KeyboardType                 KB1
+    KeyDistance                  0
+    Left                         0
+    SmallFont.Color              BLACK
+    SmallFont.Effects            []
+    SmallFont.Name               'Arial Rounded MT Bold'
+    SmallFont.Size               12
+    SmallFont.Style              []
+    Top                          250
+    Width                        800
+    OnChanged                    'Report Message'
+end
+Strings
+    Name                         Strings0
+    Alias                        Strings0
+    Alignment                    Center
+    BGcolor                      0xE3E3E3
+    Height                       25
+    FGcolor                      0x0000D9
+    Font.Bold                    Yes
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Opaque                  Yes
+    Font.Size                    -14
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         4
+    Strings                      \n
+    StringsStyle                 Message
+    Top                          100
+    Width                        150
+    OnChanged                    ''
+end
+Strings
+    Name                         Strings1
+    Alias                        Strings1
+    Alignment                    Center
+    BGcolor                      0xE3E3E3
+    Height                       25
+    FGcolor                      0x0000D9
+    Font.Bold                    Yes
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Opaque                  Yes
+    Font.Size                    -14
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         164
+    Strings                      ''
+    StringsStyle                 Message
+    Top                          100
+    Width                        150
+    OnChanged                    ''
+end
+Strings
+    Name                         Strings2
+    Alias                        Strings2
+    Alignment                    Center
+    BGcolor                      0xE3E3E3
+    Height                       25
+    FGcolor                      0x0000D9
+    Font.Bold                    Yes
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Opaque                  Yes
+    Font.Size                    -14
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         324
+    Strings                      ''
+    StringsStyle                 Message
+    Top                          100
+    Width                        150
+    OnChanged                    ''
+end
+Strings
+    Name                         Strings3
+    Alias                        Strings3
+    Alignment                    Center
+    BGcolor                      0xE3E3E3
+    Height                       25
+    FGcolor                      0x0000D9
+    Font.Bold                    Yes
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Opaque                  Yes
+    Font.Size                    -14
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         484
+    Strings                      ''
+    StringsStyle                 Message
+    Top                          100
+    Width                        150
+    OnChanged                    ''
+end
+Strings
+    Name                         Strings4
+    Alias                        Strings4
+    Alignment                    Center
+    BGcolor                      0xE3E3E3
+    Height                       25
+    FGcolor                      0x0000D9
+    Font.Bold                    Yes
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Opaque                  Yes
+    Font.Size                    -14
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         644
+    Strings                      ''
+    StringsStyle                 Message
+    Top                          100
+    Width                        150
+    OnChanged                    ''
+end
+Strings
+    Name                         Strings5
+    Alias                        Strings5
+    Alignment                    Center
+    BGcolor                      0xE3E3E3
+    Height                       25
+    FGcolor                      0x0000D9
+    Font.Bold                    Yes
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Opaque                  Yes
+    Font.Size                    -14
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         4
+    Strings                      ''
+    StringsStyle                 Message
+    Top                          155
+    Width                        150
+    OnChanged                    ''
+end
+Strings
+    Name                         Strings6
+    Alias                        Strings6
+    Alignment                    Left
+    BGcolor                      0xE3E3E3
+    Height                       25
+    FGcolor                      0x0000D9
+    Font.Bold                    Yes
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Opaque                  Yes
+    Font.Size                    -14
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         164
+    Strings                      \n
+    StringsStyle                 Message
+    Top                          155
+    Width                        150
+    OnChanged                    ''
+end
+Strings
+    Name                         Strings7
+    Alias                        Strings7
+    Alignment                    Center
+    BGcolor                      0xE3E3E3
+    Height                       25
+    FGcolor                      0x0000D9
+    Font.Bold                    Yes
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Opaque                  Yes
+    Font.Size                    -14
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         324
+    Strings                      ''
+    StringsStyle                 Message
+    Top                          155
+    Width                        150
+    OnChanged                    ''
+end
+Strings
+    Name                         Strings8
+    Alias                        Strings8
+    Alignment                    Center
+    BGcolor                      0xE3E3E3
+    Height                       25
+    FGcolor                      0x0000D9
+    Font.Bold                    Yes
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Opaque                  Yes
+    Font.Size                    -14
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         484
+    Strings                      ''
+    StringsStyle                 Message
+    Top                          155
+    Width                        150
+    OnChanged                    ''
+end
+Strings
+    Name                         Strings9
+    Alias                        Strings9
+    Alignment                    Center
+    BGcolor                      0xE3E3E3
+    Height                       25
+    FGcolor                      0x0000D9
+    Font.Bold                    Yes
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Opaque                  Yes
+    Font.Size                    -14
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         644
+    Strings                      ''
+    StringsStyle                 Message
+    Top                          155
+    Width                        150
+    OnChanged                    ''
+end
+StaticText
+    Name                         Statictext0
+    Alias                        Statictext0
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      Project_no
+    Color                        GOLD
+    Font.Color                   clYellow
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    14
+    Font.Style                   []
+    Height                       22
+    Left                         4
+    Top                          75
+    Transparent                  Yes
+    Width                        98
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext1
+    Alias                        Statictext1
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      Panel_ID
+    Color                        GOLD
+    Font.Color                   clYellow
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    14
+    Font.Style                   []
+    Height                       22
+    Left                         164
+    Top                          75
+    Transparent                  Yes
+    Width                        81
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext2
+    Alias                        Statictext2
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      Shift
+    Color                        GOLD
+    Font.Color                   clYellow
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    14
+    Font.Style                   []
+    Height                       22
+    Left                         324
+    Top                          75
+    Transparent                  Yes
+    Width                        42
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext3
+    Alias                        Statictext3
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      Date
+    Color                        GOLD
+    Font.Color                   clYellow
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    14
+    Font.Style                   []
+    Height                       22
+    Left                         484
+    Top                          75
+    Transparent                  Yes
+    Width                        43
+    WordWrap                     No
+end
+StaticText
+    Name                         Statictext4
+    Alias                        Statictext4
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      Time
+    Color                        GOLD
+    Font.Color                   clYellow
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    14
+    Font.Style                   []
+    Height                       22
+    Left                         644
+    Top                          75
+    Transparent                  Yes
+    Width                        45
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext5
+    Alias                        Statictext5
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      Species
+    Color                        GOLD
+    Font.Color                   clYellow
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    14
+    Font.Style                   []
+    Height                       22
+    Left                         4
+    Top                          130
+    Transparent                  Yes
+    Width                        73
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext6
+    Alias                        Statictext6
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      Grade
+    Color                        GOLD
+    Font.Color                   clYellow
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    14
+    Font.Style                   []
+    Height                       22
+    Left                         164
+    Top                          130
+    Transparent                  Yes
+    Width                        57
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext7
+    Alias                        Statictext7
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      Dimension
+    Color                        GOLD
+    Font.Color                   clYellow
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    14
+    Font.Style                   []
+    Height                       22
+    Left                         324
+    Top                          130
+    Transparent                  Yes
+    Width                        95
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext8
+    Alias                        Statictext8
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      Moisture_right
+    Color                        GOLD
+    Font.Color                   clYellow
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    14
+    Font.Style                   []
+    Height                       22
+    Left                         484
+    Top                          130
+    Transparent                  Yes
+    Width                        132
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext9
+    Alias                        Statictext9
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      Moisture_left
+    Color                        GOLD
+    Font.Color                   clYellow
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    14
+    Font.Style                   []
+    Height                       22
+    Left                         644
+    Top                          130
+    Transparent                  Yes
+    Width                        118
+    WordWrap                     Yes
+end
+Led
+    Name                         Led0
+    Alias                        Led0
+    Active                       No
+    Caption                      ''
+    Color                        0x2C2C2C
+    Font.Color                   clWhite
+    Font.Effects                 []
+    Font.Name                    Arial
+    Font.Size                    8
+    Font.Style                   []
+    Glyphs                       (None)
+    Height                       20
+    Layout                       Left
+    LedType                      Rounded
+    Left                         134
+    Palette.High                 clLime
+    Palette.Low                  0x000051
+    Spacing                      5
+    Top                          80
+    Width                        20
+    OnChanged                    ''
+end
+Led
+    Name                         Led1
+    Alias                        Led1
+    Active                       No
+    Caption                      ''
+    Color                        0x2C2C2C
+    Font.Color                   clWhite
+    Font.Effects                 []
+    Font.Name                    Arial
+    Font.Size                    8
+    Font.Style                   []
+    Glyphs                       (None)
+    Height                       20
+    Layout                       Left
+    LedType                      Rounded
+    Left                         294
+    Palette.High                 clLime
+    Palette.Low                  0x000051
+    Spacing                      5
+    Top                          80
+    Width                        20
+    OnChanged                    ''
+end
+Led
+    Name                         Led2
+    Alias                        Led2
+    Active                       No
+    Caption                      ''
+    Color                        0x2C2C2C
+    Font.Color                   clWhite
+    Font.Effects                 []
+    Font.Name                    Arial
+    Font.Size                    8
+    Font.Style                   []
+    Glyphs                       (None)
+    Height                       20
+    Layout                       Left
+    LedType                      Rounded
+    Left                         454
+    Palette.High                 clLime
+    Palette.Low                  0x000051
+    Spacing                      5
+    Top                          80
+    Width                        20
+    OnChanged                    ''
+end
+Led
+    Name                         Led3
+    Alias                        Led3
+    Active                       No
+    Caption                      ''
+    Color                        0x2C2C2C
+    Font.Color                   clWhite
+    Font.Effects                 []
+    Font.Name                    Arial
+    Font.Size                    8
+    Font.Style                   []
+    Glyphs                       (None)
+    Height                       20
+    Layout                       Left
+    LedType                      Rounded
+    Left                         614
+    Palette.High                 clLime
+    Palette.Low                  0x000051
+    Spacing                      5
+    Top                          80
+    Width                        20
+    OnChanged                    ''
+end
+Led
+    Name                         Led4
+    Alias                        Led4
+    Active                       No
+    Caption                      ''
+    Color                        0x2C2C2C
+    Font.Color                   clWhite
+    Font.Effects                 []
+    Font.Name                    Arial
+    Font.Size                    8
+    Font.Style                   []
+    Glyphs                       (None)
+    Height                       20
+    Layout                       Left
+    LedType                      Rounded
+    Left                         774
+    Palette.High                 clLime
+    Palette.Low                  0x000051
+    Spacing                      5
+    Top                          80
+    Width                        20
+    OnChanged                    ''
+end
+Led
+    Name                         Led5
+    Alias                        Led5
+    Active                       No
+    Caption                      ''
+    Color                        0x2C2C2C
+    Font.Color                   clWhite
+    Font.Effects                 []
+    Font.Name                    Arial
+    Font.Size                    8
+    Font.Style                   []
+    Glyphs                       (None)
+    Height                       20
+    Layout                       Left
+    LedType                      Rounded
+    Left                         134
+    Palette.High                 clLime
+    Palette.Low                  0x000051
+    Spacing                      5
+    Top                          135
+    Width                        20
+    OnChanged                    ''
+end
+Led
+    Name                         Led6
+    Alias                        Led6
+    Active                       No
+    Caption                      ''
+    Color                        0x2C2C2C
+    Font.Color                   clWhite
+    Font.Effects                 []
+    Font.Name                    Arial
+    Font.Size                    8
+    Font.Style                   []
+    Glyphs                       (None)
+    Height                       20
+    Layout                       Left
+    LedType                      Rounded
+    Left                         294
+    Palette.High                 clLime
+    Palette.Low                  0x000051
+    Spacing                      5
+    Top                          135
+    Width                        20
+    OnChanged                    ''
+end
+Led
+    Name                         Led7
+    Alias                        Led7
+    Active                       No
+    Caption                      ''
+    Color                        0x2C2C2C
+    Font.Color                   clWhite
+    Font.Effects                 []
+    Font.Name                    Arial
+    Font.Size                    8
+    Font.Style                   []
+    Glyphs                       (None)
+    Height                       20
+    Layout                       Left
+    LedType                      Rounded
+    Left                         454
+    Palette.High                 clLime
+    Palette.Low                  0x000051
+    Spacing                      5
+    Top                          135
+    Width                        20
+    OnChanged                    ''
+end
+Led
+    Name                         Led8
+    Alias                        Led8
+    Active                       No
+    Caption                      ''
+    Color                        0x2C2C2C
+    Font.Color                   clWhite
+    Font.Effects                 []
+    Font.Name                    Arial
+    Font.Size                    8
+    Font.Style                   []
+    Glyphs                       (None)
+    Height                       20
+    Layout                       Left
+    LedType                      Rounded
+    Left                         619
+    Palette.High                 clLime
+    Palette.Low                  0x000051
+    Spacing                      5
+    Top                          135
+    Width                        15
+    OnChanged                    ''
+end
+Led
+    Name                         Led9
+    Alias                        Led9
+    Active                       No
+    Caption                      ''
+    Color                        0x2C2C2C
+    Font.Color                   clWhite
+    Font.Effects                 []
+    Font.Name                    Arial
+    Font.Size                    8
+    Font.Style                   []
+    Glyphs                       (None)
+    Height                       20
+    Layout                       Left
+    LedType                      Rounded
+    Left                         774
+    Palette.High                 clLime
+    Palette.Low                  0x000051
+    Spacing                      5
+    Top                          135
+    Width                        20
+    OnChanged                    ''
+end
+Strings
+    Name                         Strings10
+    Alias                        Strings10
+    Alignment                    Left
+    BGcolor                      SILVER
+    Height                       40
+    FGcolor                      clRed
+    Font.Bold                    Yes
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Opaque                  No
+    Font.Size                    -12
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         267
+    Strings                      ''
+    StringsStyle                 Message
+    Top                          0
+    Width                        450
+    OnChanged                    ''
+end
+4Dbutton
+    Name                         4Dbutton1
+    Alias                        4Dbutton1
+    Height                       64
+    Left                         736
+    Matrix                       -1
+    Momentary                    Yes
+    Size                         64x64
+    Style                        Green
+    Top                          0
+    Type                         Button01
+    Width                        64
+    OnChanged                    'Report Message'
+end
+StaticText
+    Name                         Statictext10
+    Alias                        Statictext10
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      Submit
+    Color                        BLACK
+    Font.Color                   clWhite
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    10
+    Font.Style                   []
+    Height                       15
+    Left                         745
+    Top                          63
+    Transparent                  Yes
+    Width                        46
+    WordWrap                     No
+end
+4Dbutton
+    Name                         4Dbutton0
+    Alias                        4Dbutton0
+    Height                       64
+    Left                         0
+    Matrix                       -1
+    Momentary                    Yes
+    Size                         64x64
+    Style                        Red
+    Top                          0
+    Type                         Button01
+    Width                        64
+    OnChanged                    Form1Activate
+end
+StaticText
+    Name                         Statictext12
+    Alias                        Statictext12
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      Home
+    Color                        BLACK
+    Font.Color                   clWhite
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    10
+    Font.Style                   []
+    Height                       15
+    Left                         13
+    Top                          63
+    Transparent                  Yes
+    Width                        38
+    WordWrap                     No
+end
+Strings
+    Name                         Strings12
+    Alias                        Strings12
+    Alignment                    Center
+    BGcolor                      0xE3E3E3
+    Height                       25
+    FGcolor                      0x0000D9
+    Font.Bold                    Yes
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Opaque                  Yes
+    Font.Size                    -14
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         4
+    Strings                      \n
+    StringsStyle                 Message
+    Top                          210
+    Width                        150
+    OnChanged                    ''
+end
+Strings
+    Name                         Strings13
+    Alias                        Strings13
+    Alignment                    Center
+    BGcolor                      0xE3E3E3
+    Height                       25
+    FGcolor                      0x0000D9
+    Font.Bold                    Yes
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Opaque                  Yes
+    Font.Size                    -14
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         164
+    Strings                      \n
+    StringsStyle                 Message
+    Top                          210
+    Width                        150
+    OnChanged                    ''
+end
+Strings
+    Name                         Strings14
+    Alias                        Strings14
+    Alignment                    Center
+    BGcolor                      0xE3E3E3
+    Height                       25
+    FGcolor                      0x0000D9
+    Font.Bold                    Yes
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Opaque                  Yes
+    Font.Size                    -14
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         324
+    Strings                      \n
+    StringsStyle                 Message
+    Top                          210
+    Width                        150
+    OnChanged                    ''
+end
+Strings
+    Name                         Strings15
+    Alias                        Strings15
+    Alignment                    Center
+    BGcolor                      0xE3E3E3
+    Height                       25
+    FGcolor                      0x0000D9
+    Font.Bold                    Yes
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Opaque                  Yes
+    Font.Size                    -14
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         484
+    Strings                      ''
+    StringsStyle                 Message
+    Top                          210
+    Width                        150
+    OnChanged                    ''
+end
+Strings
+    Name                         Strings16
+    Alias                        Strings16
+    Alignment                    Center
+    BGcolor                      0xE3E3E3
+    Height                       25
+    FGcolor                      0x0000D9
+    Font.Bold                    Yes
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Opaque                  Yes
+    Font.Size                    -14
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         644
+    Strings                      ''
+    StringsStyle                 Message
+    Top                          210
+    Width                        150
+    OnChanged                    ''
+end
+StaticText
+    Name                         Statictext22
+    Alias                        Statictext22
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      Adhv_appli
+    Color                        GOLD
+    Font.Color                   clYellow
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    14
+    Font.Style                   []
+    Height                       22
+    Left                         4
+    Top                          185
+    Transparent                  Yes
+    Width                        102
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext23
+    Alias                        Statictext23
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      Squeeze_out
+    Color                        GOLD
+    Font.Color                   clYellow
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    14
+    Font.Style                   []
+    Height                       22
+    Left                         164
+    Top                          185
+    Transparent                  Yes
+    Width                        118
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext24
+    Alias                        Statictext24
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      Adhv_batch
+    Color                        GOLD
+    Font.Color                   clYellow
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    14
+    Font.Style                   []
+    Height                       22
+    Left                         324
+    Top                          185
+    Transparent                  Yes
+    Width                        115
+    WordWrap                     No
+end
+StaticText
+    Name                         Statictext25
+    Alias                        Statictext25
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      Fin_joint_app
+    Color                        GOLD
+    Font.Color                   clYellow
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    14
+    Font.Style                   []
+    Height                       22
+    Left                         484
+    Top                          185
+    Transparent                  Yes
+    Width                        121
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext26
+    Alias                        Statictext26
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      Pos_align
+    Color                        GOLD
+    Font.Color                   clYellow
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    14
+    Font.Style                   []
+    Height                       22
+    Left                         644
+    Top                          185
+    Transparent                  Yes
+    Width                        88
+    WordWrap                     Yes
+end
+Led
+    Name                         Led10
+    Alias                        Led10
+    Active                       No
+    Caption                      ''
+    Color                        0x2C2C2C
+    Font.Color                   clWhite
+    Font.Effects                 []
+    Font.Name                    Arial
+    Font.Size                    8
+    Font.Style                   []
+    Glyphs                       (None)
+    Height                       20
+    Layout                       Left
+    LedType                      Rounded
+    Left                         134
+    Palette.High                 clLime
+    Palette.Low                  0x000051
+    Spacing                      5
+    Top                          187
+    Width                        20
+    OnChanged                    ''
+end
+Led
+    Name                         Led11
+    Alias                        Led11
+    Active                       No
+    Caption                      ''
+    Color                        0x2C2C2C
+    Font.Color                   clWhite
+    Font.Effects                 []
+    Font.Name                    Arial
+    Font.Size                    8
+    Font.Style                   []
+    Glyphs                       (None)
+    Height                       20
+    Layout                       Left
+    LedType                      Rounded
+    Left                         294
+    Palette.High                 clLime
+    Palette.Low                  0x000051
+    Spacing                      5
+    Top                          187
+    Width                        20
+    OnChanged                    ''
+end
+Led
+    Name                         Led12
+    Alias                        Led12
+    Active                       No
+    Caption                      ''
+    Color                        0x2C2C2C
+    Font.Color                   clWhite
+    Font.Effects                 []
+    Font.Name                    Arial
+    Font.Size                    8
+    Font.Style                   []
+    Glyphs                       (None)
+    Height                       20
+    Layout                       Left
+    LedType                      Rounded
+    Left                         454
+    Palette.High                 clLime
+    Palette.Low                  0x000051
+    Spacing                      5
+    Top                          187
+    Width                        20
+    OnChanged                    ''
+end
+Led
+    Name                         Led13
+    Alias                        Led13
+    Active                       No
+    Caption                      ''
+    Color                        0x2C2C2C
+    Font.Color                   clWhite
+    Font.Effects                 []
+    Font.Name                    Arial
+    Font.Size                    8
+    Font.Style                   []
+    Glyphs                       (None)
+    Height                       20
+    Layout                       Left
+    LedType                      Rounded
+    Left                         614
+    Palette.High                 clLime
+    Palette.Low                  0x000051
+    Spacing                      5
+    Top                          187
+    Width                        20
+    OnChanged                    ''
+end
+Led
+    Name                         Led14
+    Alias                        Led14
+    Active                       No
+    Caption                      ''
+    Color                        0x2C2C2C
+    Font.Color                   clWhite
+    Font.Effects                 []
+    Font.Name                    Arial
+    Font.Size                    8
+    Font.Style                   []
+    Glyphs                       (None)
+    Height                       20
+    Layout                       Left
+    LedType                      Rounded
+    Left                         774
+    Palette.High                 clLime
+    Palette.Low                  0x000051
+    Spacing                      5
+    Top                          187
+    Width                        20
+    OnChanged                    ''
+end
+StaticText
+    Name                         Statictext31
+    Alias                        Statictext31
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      YYYYMMDD
+    Color                        clRed
+    Font.Color                   clLime
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    10
+    Font.Style                   []
+    Height                       15
+    Left                         533
+    Top                          78
+    Transparent                  Yes
+    Width                        74
+    WordWrap                     No
+end
+StaticText
+    Name                         Statictext32
+    Alias                        Statictext32
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      24HR
+    Color                        clRed
+    Font.Color                   clLime
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    10
+    Font.Style                   []
+    Height                       15
+    Left                         714
+    Top                          78
+    Transparent                  Yes
+    Width                        35
+    WordWrap                     No
+end
+StaticText
+    Name                         Statictext33
+    Alias                        Statictext33
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      am(day)
+    Color                        clRed
+    Font.Color                   clLime
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    9
+    Font.Style                   []
+    Height                       14
+    Left                         386
+    Top                          70
+    Transparent                  Yes
+    Width                        48
+    WordWrap                     No
+end
+StaticText
+    Name                         Statictext34
+    Alias                        Statictext34
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      pm(night)
+    Color                        clRed
+    Font.Color                   clLime
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    9
+    Font.Style                   []
+    Height                       14
+    Left                         382
+    Top                          85
+    Transparent                  Yes
+    Width                        56
+    WordWrap                     No
+end
+Strings
+    Name                         Strings17
+    Alias                        Strings17
+    Alignment                    Center
+    BGcolor                      0xE3E3E3
+    Height                       25
+    FGcolor                      0x0000D9
+    Font.Bold                    Yes
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Opaque                  Yes
+    Font.Size                    -14
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         79
+    Strings                      ''
+    StringsStyle                 Message
+    Top                          25
+    Width                        170
+    OnChanged                    ''
+end
+StaticText
+    Name                         Statictext35
+    Alias                        Statictext35
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      Operator
+    Color                        GOLD
+    Font.Color                   clYellow
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    14
+    Font.Style                   []
+    Height                       22
+    Left                         79
+    Top                          0
+    Transparent                  Yes
+    Width                        83
+    WordWrap                     Yes
+end
+Led
+    Name                         Led15
+    Alias                        Led15
+    Active                       No
+    Caption                      ''
+    Color                        0x2C2C2C
+    Font.Color                   clWhite
+    Font.Effects                 []
+    Font.Name                    Arial
+    Font.Size                    8
+    Font.Style                   []
+    Glyphs                       (None)
+    Height                       20
+    Layout                       Left
+    LedType                      Rounded
+    Left                         229
+    Palette.High                 clLime
+    Palette.Low                  0x000051
+    Spacing                      5
+    Top                          5
+    Width                        20
+    OnChanged                    ''
+end
+Form
+    Name                         Form1
+    Alias                        Form1
+    Bgtype                       Image
+    Color                        BLACK
+    Image                        'nologobetterline (1).png'
+    Source.Height                548
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 840
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+UserButton
+    Name                         Userbutton0
+    Alias                        Userbutton0
+    Height                       100
+    Images                       SC_logo-removebg-preview.png
+    Left                         122
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      Yes
+    Top                          15
+    Width                        100
+    OnChanged                    Form0Activate
+end
+StaticText
+    Name                         Statictext11
+    Alias                        Statictext11
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      'Start Test'
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    11
+    Font.Style                   []
+    Height                       17
+    Left                         137
+    Top                          115
+    Transparent                  Yes
+    Width                        71
+    WordWrap                     No
+end
+StaticText
+    Name                         Statictext19
+    Alias                        Statictext19
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      °C
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    11
+    Font.Style                   []
+    Height                       20
+    Left                         780
+    Top                          460
+    Transparent                  Yes
+    Width                        20
+    WordWrap                     No
+end
+UserLed
+    Name                         Userled5
+    Alias                        Userled5
+    Active                       No
+    Bevel.BorderColor            0x9E9E9E
+    Bevel.BorderWidth            0
+    Bevel.InnerColor             0x9E9E9E
+    Bevel.InnerHighlight         0x9E9E9E
+    Bevel.InnerOutline           None
+    Bevel.InnerShadow            0x9E9E9E
+    Bevel.InnerSpace             1
+    Bevel.InnerStyle             None
+    Bevel.Innerwidth             1
+    Bevel.OuterColor             0x9E9E9E
+    Bevel.OuterHighlight         0x9E9E9E
+    Bevel.OuterOutline           Outer
+    Bevel.OuterShadow            clBtnShadow
+    Bevel.OuterSpace             0
+    Bevel.OuterStyle             None
+    Bevel.Outerwidth             1
+    Bevel.Visible                Yes
+    Height                       20
+    Left                         760
+    OutlineColor                 BLACK
+    OutlineWidth                 0
+    PaletteEx.High1              clLime
+    PaletteEx.High2              GREEN
+    PaletteEx.Low1               clRed
+    PaletteEx.Low2               MAROON
+    Top                          0
+    Width                        40
+    OnChanged                    ''
+end
+StaticText
+    Name                         Statictext20
+    Alias                        Statictext20
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      Wi-Fi
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    11
+    Font.Style                   []
+    Height                       20
+    Left                         760
+    Top                          20
+    Transparent                  Yes
+    Width                        40
+    WordWrap                     No
+end
+Strings
+    Name                         Strings18
+    Alias                        Strings18
+    Alignment                    Left
+    BGcolor                      BLACK
+    Height                       20
+    FGcolor                      WHITE
+    Font.Bold                    Yes
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Opaque                  No
+    Font.Size                    -11
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         745
+    Strings                      \n
+    StringsStyle                 Message
+    Top                          460
+    Width                        30
+    OnChanged                    ''
+end
+Form
+    Name                         Form2
+    Alias                        Form2
+    Bgtype                       Color
+    Color                        0x2C2C2C
+    Image                        (None)
+    Source.Height                0
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 0
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Coolgauge
+    Name                         Coolgauge1
+    Alias                        Coolgauge1
+    Arc.Color                    0xCACACA
+    Arc.Opacity                  200
+    Arc.StartAngle               130
+    Arc.StopAngle                410
+    Threshold.Center             10
+    Threshold.Color              0xCACACA
+    Threshold.EndValue           0
+    Threshold.Opacity            0
+    Threshold.Span               20
+    Threshold.StartAngle         130
+    Threshold.StartValue         0
+    Threshold.SweepAngle         280
+    Threshold.ThresholdKind      Angle
+    Arc.Width                    0.03
+    CircleEndValue               360
+    CircleStartValue             0
+    DialText                     'Load lbf x100'
+    Digit.Alignment              Center
+    Digit.BackGroundColor        BLACK
+    Digit.BackGroundOpacity      500
+    Digit.Color                  0x090AFF
+    Digit.Visible                Yes
+    DivisionColor                0x090AFF
+    DivisionCount                20
+    DivisionWidth                5
+    EqualDimensions              Yes
+    Font.Color                   0x090AFF
+    Font.Effects                 []
+    Font.Name                    Calibri
+    Font.Size                    13
+    Font.Style                   [Bold,Italic]
+    Height                       350
+    Innercircle.Color            BLACK
+    Gloss.Color                  0xCACACA
+    Gloss.Opacity                60
+    Innercircle.Opacity          150
+    Left                         450
+    Logarithmic                  No
+    LogarithmicBase              10
+    MaximumValue                 600
+    MinimumValue                 0
+    Needle.Color                 0x2096FF
+    Needle.InnerCenterColor      0x3AA2FF
+    Needle.InnerCenterColorTo    0x3A3BFF
+    Needle.InnerCenterOpacity    255
+    Needle.OuterCenterColor      0x2096FF
+    Needle.OuterCenterColorTo    0x090AFF
+    Needle.OuterCenterOpacity    255
+    Needle.ShineColor            0x3AA2FF
+    Needle.ShineColorTo          0x5EB3FF
+    OuterCircle.Color            BLACK
+    OuterCircle.Opacity          100
+    OuterCircle.Width            0.03
+    OuterRim.Color               BLACK
+    OuterRim.Opacity             255
+    OuterRim.Width               1
+    ShowValues                   Yes
+    SubDivisionColor             0x2096FF
+    SubDivisionCount             4
+    SubDivisionWidth             2
+    TextRendering                ClearType
+    Top                          65
+    ValueFont.Color              0x2096FF
+    ValueFont.Effects            []
+    ValueFont.Name               Calibri
+    ValueFont.Size               12
+    ValueFont.Style              [Bold,Italic]
+    ValueFormat                  0
+    Width                        350
+    OnChanged                    'Report Message'
+end
+Coolgauge
+    Name                         Coolgauge0
+    Alias                        Coolgauge0
+    Arc.Color                    0xCACACA
+    Arc.Opacity                  200
+    Arc.StartAngle               130
+    Arc.StopAngle                410
+    Threshold.Center             10
+    Threshold.Color              0xCACACA
+    Threshold.EndValue           0
+    Threshold.Opacity            0
+    Threshold.Span               20
+    Threshold.StartAngle         130
+    Threshold.StartValue         0
+    Threshold.SweepAngle         280
+    Threshold.ThresholdKind      Angle
+    Arc.Width                    0.03
+    CircleEndValue               360
+    CircleStartValue             0
+    DialText                     'Pressure psi x100'
+    Digit.Alignment              Center
+    Digit.BackGroundColor        BLACK
+    Digit.BackGroundOpacity      500
+    Digit.Color                  0x090AFF
+    Digit.Visible                Yes
+    DivisionColor                0x090AFF
+    DivisionCount                20
+    DivisionWidth                5
+    EqualDimensions              Yes
+    Font.Color                   0x090AFF
+    Font.Effects                 []
+    Font.Name                    Calibri
+    Font.Size                    13
+    Font.Style                   [Bold,Italic]
+    Height                       350
+    Innercircle.Color            BLACK
+    Gloss.Color                  0xCACACA
+    Gloss.Opacity                60
+    Innercircle.Opacity          150
+    Left                         0
+    Logarithmic                  No
+    LogarithmicBase              10
+    MaximumValue                 100
+    MinimumValue                 0
+    Needle.Color                 0x2096FF
+    Needle.InnerCenterColor      0x3AA2FF
+    Needle.InnerCenterColorTo    0x3A3BFF
+    Needle.InnerCenterOpacity    255
+    Needle.OuterCenterColor      0x2096FF
+    Needle.OuterCenterColorTo    0x090AFF
+    Needle.OuterCenterOpacity    255
+    Needle.ShineColor            0x3AA2FF
+    Needle.ShineColorTo          0x5EB3FF
+    OuterCircle.Color            BLACK
+    OuterCircle.Opacity          100
+    OuterCircle.Width            0.03
+    OuterRim.Color               BLACK
+    OuterRim.Opacity             255
+    OuterRim.Width               1
+    ShowValues                   Yes
+    SubDivisionColor             0x2096FF
+    SubDivisionCount             4
+    SubDivisionWidth             2
+    TextRendering                ClearType
+    Top                          65
+    ValueFont.Color              0x2096FF
+    ValueFont.Effects            []
+    ValueFont.Name               Calibri
+    ValueFont.Size               12
+    ValueFont.Style              [Bold,Italic]
+    ValueFormat                  0
+    Width                        350
+    OnChanged                    'Report Message'
+end
+LedDigits
+    Name                         Leddigits0
+    Alias                        Leddigits0
+    Color                        BLACK
+    Decimals                     0
+    Digits                       5
+    Height                       30
+    LeadingZero                  No
+    Left                         357
+    OutlineColor                 BLACK
+    Palette.High                 clLime
+    Palette.Low                  BLACK
+    Top                          95
+    Width                        85
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+StaticText
+    Name                         Statictext14
+    Alias                        Statictext14
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      Min-Ft
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    12
+    Font.Style                   []
+    Height                       18
+    Left                         375
+    Top                          65
+    Transparent                  Yes
+    Width                        48
+    WordWrap                     No
+end
+StaticText
+    Name                         Statictext13
+    Alias                        Statictext13
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      5th%ile-Ft
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    12
+    Font.Style                   []
+    Height                       18
+    Left                         360
+    Top                          150
+    Transparent                  Yes
+    Width                        79
+    WordWrap                     No
+end
+LedDigits
+    Name                         Leddigits1
+    Alias                        Leddigits1
+    Color                        BLACK
+    Decimals                     0
+    Digits                       5
+    Height                       30
+    LeadingZero                  No
+    Left                         357
+    OutlineColor                 BLACK
+    Palette.High                 clLime
+    Palette.Low                  BLACK
+    Top                          180
+    Width                        85
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+StaticText
+    Name                         Statictext15
+    Alias                        Statictext15
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      Min-UTS
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    12
+    Font.Style                   []
+    Height                       18
+    Left                         367
+    Top                          235
+    Transparent                  Yes
+    Width                        65
+    WordWrap                     No
+end
+LedDigits
+    Name                         Leddigits2
+    Alias                        Leddigits2
+    Color                        BLACK
+    Decimals                     0
+    Digits                       5
+    Height                       30
+    LeadingZero                  No
+    Left                         357
+    OutlineColor                 BLACK
+    Palette.High                 clLime
+    Palette.Low                  BLACK
+    Top                          265
+    Width                        85
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+StaticText
+    Name                         Statictext16
+    Alias                        Statictext16
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      5th%ile-UTS
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    12
+    Font.Style                   []
+    Height                       18
+    Left                         351
+    Top                          320
+    Transparent                  Yes
+    Width                        96
+    WordWrap                     No
+end
+LedDigits
+    Name                         Leddigits3
+    Alias                        Leddigits3
+    Color                        BLACK
+    Decimals                     0
+    Digits                       5
+    Height                       30
+    LeadingZero                  No
+    Left                         357
+    OutlineColor                 BLACK
+    Palette.High                 clLime
+    Palette.Low                  BLACK
+    Top                          350
+    Width                        85
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Border
+    Name                         Border0
+    Alias                        Border0
+    Height                       40
+    HighlightColor               clRed
+    Left                         352
+    ShadowColor                  BLACK
+    Shape                        Frame
+    Style                        Raised
+    Top                          90
+    Width                        95
+end
+Border
+    Name                         Border1
+    Alias                        Border1
+    Height                       40
+    HighlightColor               clRed
+    Left                         352
+    ShadowColor                  BLACK
+    Shape                        Frame
+    Style                        Raised
+    Top                          175
+    Width                        95
+end
+Border
+    Name                         Border2
+    Alias                        Border2
+    Height                       40
+    HighlightColor               clRed
+    Left                         352
+    ShadowColor                  BLACK
+    Shape                        Frame
+    Style                        Raised
+    Top                          260
+    Width                        95
+end
+Border
+    Name                         Border3
+    Alias                        Border3
+    Height                       40
+    HighlightColor               clRed
+    Left                         352
+    ShadowColor                  BLACK
+    Shape                        Frame
+    Style                        Raised
+    Top                          345
+    Width                        95
+end
+4Dbutton
+    Name                         4Dbutton9
+    Alias                        4Dbutton9
+    Height                       48
+    Left                         752
+    Matrix                       -1
+    Momentary                    Yes
+    Size                         48x48
+    Style                        Green
+    Top                          0
+    Type                         Button01
+    Width                        48
+    OnChanged                    'Report Message'
+end
+UserLed
+    Name                         Userled0
+    Alias                        Userled0
+    Active                       No
+    Bevel.BorderColor            clBtnFace
+    Bevel.BorderWidth            0
+    Bevel.InnerColor             clBtnFace
+    Bevel.InnerHighlight         clLime
+    Bevel.InnerOutline           None
+    Bevel.InnerShadow            0x005100
+    Bevel.InnerSpace             1
+    Bevel.InnerStyle             None
+    Bevel.Innerwidth             1
+    Bevel.OuterColor             clBtnFace
+    Bevel.OuterHighlight         clBtnHighlight
+    Bevel.OuterOutline           Outer
+    Bevel.OuterShadow            clBtnShadow
+    Bevel.OuterSpace             0
+    Bevel.OuterStyle             Raised
+    Bevel.Outerwidth             1
+    Bevel.Visible                Yes
+    Height                       20
+    Left                         300
+    OutlineColor                 BLACK
+    OutlineWidth                 0
+    PaletteEx.High1              clLime
+    PaletteEx.High2              GREEN
+    PaletteEx.Low1               0x000051
+    PaletteEx.Low2               BLACK
+    Top                          28
+    Width                        40
+    OnChanged                    ''
+end
+UserLed
+    Name                         Userled1
+    Alias                        Userled1
+    Active                       No
+    Bevel.BorderColor            clBtnFace
+    Bevel.BorderWidth            0
+    Bevel.InnerColor             clBtnFace
+    Bevel.InnerHighlight         clLime
+    Bevel.InnerOutline           None
+    Bevel.InnerShadow            0x005100
+    Bevel.InnerSpace             1
+    Bevel.InnerStyle             None
+    Bevel.Innerwidth             1
+    Bevel.OuterColor             clBtnFace
+    Bevel.OuterHighlight         clBtnHighlight
+    Bevel.OuterOutline           Outer
+    Bevel.OuterShadow            clBtnShadow
+    Bevel.OuterSpace             0
+    Bevel.OuterStyle             Raised
+    Bevel.Outerwidth             1
+    Bevel.Visible                Yes
+    Height                       20
+    Left                         455
+    OutlineColor                 BLACK
+    OutlineWidth                 0
+    PaletteEx.High1              clRed
+    PaletteEx.High2              MAROON
+    PaletteEx.Low1               0x000051
+    PaletteEx.Low2               BLACK
+    Top                          28
+    Width                        40
+    OnChanged                    ''
+end
+StaticText
+    Name                         Statictext17
+    Alias                        Statictext17
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      PASS
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    14
+    Font.Style                   []
+    Height                       25
+    Left                         290
+    Top                          0
+    Transparent                  Yes
+    Width                        60
+    WordWrap                     No
+end
+StaticText
+    Name                         Statictext18
+    Alias                        Statictext18
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      FAIL
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    14
+    Font.Style                   []
+    Height                       25
+    Left                         450
+    Top                          0
+    Transparent                  Yes
+    Width                        50
+    WordWrap                     No
+end
+LedDigits
+    Name                         Leddigits4
+    Alias                        Leddigits4
+    Color                        BLACK
+    Decimals                     0
+    Digits                       5
+    Height                       30
+    LeadingZero                  No
+    Left                         133
+    OutlineColor                 BLACK
+    Palette.High                 clLime
+    Palette.Low                  BLACK
+    Top                          420
+    Width                        85
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Border
+    Name                         Border4
+    Alias                        Border4
+    Height                       40
+    HighlightColor               clRed
+    Left                         128
+    ShadowColor                  BLACK
+    Shape                        Frame
+    Style                        Raised
+    Top                          415
+    Width                        95
+end
+LedDigits
+    Name                         Leddigits5
+    Alias                        Leddigits5
+    Color                        BLACK
+    Decimals                     0
+    Digits                       5
+    Height                       30
+    LeadingZero                  No
+    Left                         582
+    OutlineColor                 BLACK
+    Palette.High                 clLime
+    Palette.Low                  BLACK
+    Top                          420
+    Width                        85
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Border
+    Name                         Border5
+    Alias                        Border5
+    Height                       40
+    HighlightColor               clRed
+    Left                         577
+    ShadowColor                  BLACK
+    Shape                        Frame
+    Style                        Raised
+    Top                          415
+    Width                        95
+end
+StaticText
+    Name                         Statictext27
+    Alias                        Statictext27
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      'Max psi'
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    12
+    Font.Style                   []
+    Height                       20
+    Left                         147
+    Top                          455
+    Transparent                  Yes
+    Width                        58
+    WordWrap                     No
+end
+StaticText
+    Name                         Statictext28
+    Alias                        Statictext28
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      'Max lbf'
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    12
+    Font.Style                   []
+    Height                       18
+    Left                         597
+    Top                          455
+    Transparent                  Yes
+    Width                        54
+    WordWrap                     No
+end
+StaticText
+    Name                         Statictext30
+    Alias                        Statictext30
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      Next
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    10
+    Font.Style                   []
+    Height                       15
+    Left                         761
+    Top                          50
+    Transparent                  Yes
+    Width                        30
+    WordWrap                     No
+end
+Form
+    Name                         Form3
+    Alias                        Form3
+    Bgtype                       Color
+    Color                        clWhite
+    Image                        (None)
+    Source.Height                0
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 0
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Image
+    Name                         Image0
+    Alias                        Image0
+    Height                       480
+    Image                        'Screenshot 2024-07-23 143627.png'
+    Left                         150
+    Source.Height                920
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 827
+    Top                          0
+    Width                        500
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+StaticText
+    Name                         Statictext21
+    Alias                        Statictext21
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      '1 Press to Submit'
+    Color                        BLACK
+    Font.Color                   BLACK
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    10
+    Font.Style                   []
+    Height                       15
+    Left                         687
+    Top                          64
+    Transparent                  Yes
+    Width                        113
+    WordWrap                     No
+end
+4Dbutton
+    Name                         4Dbutton2
+    Alias                        4Dbutton2
+    Height                       48
+    Left                         190
+    Matrix                       -1
+    Momentary                    No
+    Size                         48x48
+    Style                        Red
+    Top                          25
+    Type                         Button01
+    Width                        48
+    OnChanged                    'Report Message'
+end
+4Dbutton
+    Name                         4Dbutton3
+    Alias                        4Dbutton3
+    Height                       48
+    Left                         190
+    Matrix                       -1
+    Momentary                    No
+    Size                         48x48
+    Style                        Red
+    Top                          106
+    Type                         Button01
+    Width                        48
+    OnChanged                    'Report Message'
+end
+4Dbutton
+    Name                         4Dbutton4
+    Alias                        4Dbutton4
+    Height                       48
+    Left                         190
+    Matrix                       -1
+    Momentary                    No
+    Size                         48x48
+    Style                        Red
+    Top                          187
+    Type                         Button01
+    Width                        48
+    OnChanged                    'Report Message'
+end
+4Dbutton
+    Name                         4Dbutton5
+    Alias                        4Dbutton5
+    Height                       48
+    Left                         190
+    Matrix                       -1
+    Momentary                    No
+    Size                         48x48
+    Style                        Red
+    Top                          269
+    Type                         Button01
+    Width                        48
+    OnChanged                    'Report Message'
+end
+4Dbutton
+    Name                         4Dbutton6
+    Alias                        4Dbutton6
+    Height                       48
+    Left                         190
+    Matrix                       -1
+    Momentary                    No
+    Size                         48x48
+    Style                        Red
+    Top                          350
+    Type                         Button01
+    Width                        48
+    OnChanged                    'Report Message'
+end
+4Dbutton
+    Name                         4Dbutton7
+    Alias                        4Dbutton7
+    Height                       48
+    Left                         190
+    Matrix                       -1
+    Momentary                    No
+    Size                         48x48
+    Style                        Red
+    Top                          432
+    Type                         Button01
+    Width                        48
+    OnChanged                    'Report Message'
+end
+4Dbutton
+    Name                         4Dbutton8
+    Alias                        4Dbutton8
+    Height                       64
+    Left                         736
+    Matrix                       -1
+    Momentary                    Yes
+    Size                         64x64
+    Style                        Green
+    Top                          0
+    Type                         Button01
+    Width                        64
+    OnChanged                    'Report Message'
+end
+Strings
+    Name                         Strings11
+    Alias                        Strings11
+    Alignment                    Left
+    BGcolor                      clWhite
+    Height                       25
+    FGcolor                      clRed
+    Font.Bold                    Yes
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Opaque                  Yes
+    Font.Size                    -12
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         150
+    Strings                      '                  Please choose a wood failure mode'
+    StringsStyle                 Message
+    Top                          0
+    Width                        500
+    OnChanged                    ''
+end
+StaticText
+    Name                         Statictext29
+    Alias                        Statictext29
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      '2 Press to Finish'
+    Color                        BLACK
+    Font.Color                   BLACK
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    10
+    Font.Style                   []
+    Height                       15
+    Left                         691
+    Top                          84
+    Transparent                  Yes
+    Width                        106
+    WordWrap                     No
+end
